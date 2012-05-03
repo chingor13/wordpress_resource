@@ -1,0 +1,16 @@
+= WordpressResource
+
+WordpressResource is an adapter for ActiveResource that uses OAuth authentication.
+
+== Getting Started
+
+After installing the gem, you should require it:
+
+  require 'wordpress_resource'
+
+Configuring it should be simple:
+
+  WordpressResource::Base.site = "http://site.com/basepath"
+  WordpressResource::Base.oauth_connection = @oauth_token
+
+
