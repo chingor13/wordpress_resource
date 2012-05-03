@@ -13,4 +13,13 @@ Configuring it should be simple:
   WordpressResource::Base.site = "http://site.com/basepath"
   WordpressResource::Base.oauth_connection = @oauth_token
 
+== Other Notes
 
+This gem is meant to used in conjunction with the Wordpress plugin oauth-rest[http://wordpress.org/extend/plugins/oauthrest/].
+oauth-rest also depends on oauth-provider[http://wordpress.org/extend/plugins/oauth-provider/].
+
+This gem does not handle the OAuth authentication process, simply access to the API once an access token has been obtained.
+
+== Contributing
+
+If you would like to contribute to this gem, please fork and send me a pull request.
